@@ -1,0 +1,2 @@
+On Windows, this repository should be built in the root of a drive or otherwise you will run into path length issues.
+Also read the documentation inside source to enable long paths on Windows and in Git.
