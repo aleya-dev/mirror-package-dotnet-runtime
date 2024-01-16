@@ -9,5 +9,5 @@ finally
     Pop-Location
 }
 
-&conan export-pkg . -s os="Windows" -s arch="x86_64" -s build_type="Debug"
-&conan export-pkg . -s os="Windows" -s arch="x86_64" -s build_type="Release"
+&conan export-pkg . -s os="Windows" -s arch="x86_64" -s build_type="Debug" --user aleya --channel public
+&conan export-pkg . -s os="Windows" -s arch="x86_64" -s build_type="Release"  --user aleya --channel public
