@@ -8,7 +8,7 @@ required_conan_version = ">=2.0"
 
 class DotnetHostFxrConan(ConanFile):
     name = "dotnet-host-fxr"
-    version = "8.0.0"
+    version = "8.0.1"
     settings = "os", "arch", "build_type"
 
     def __os(self):
